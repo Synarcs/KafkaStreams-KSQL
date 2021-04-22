@@ -1,0 +1,31 @@
+{
+  "type" : "record",
+  "name" : "nifi",
+  "namespace" : "com.test.avro",
+  "fields" : [ {
+    "name" : "count",
+    "type" : "long"
+  }, {
+    "name" : "data",
+    "type" : {
+      "type" : "record",
+      "name" : "data",
+      "fields" : [ {
+        "name" : "date",
+        "type" : "string"
+      }, {
+        "name" : "Account",
+        "type" : "long"
+      }, {
+        "name" : "dateProcessed",
+        "type" : "string"
+      }, {
+        "name" : "type",
+        "type" : "string"
+      }, {
+        "name" : "Name",
+        "type" : "string"
+      } ]
+    }
+  } ]
+}

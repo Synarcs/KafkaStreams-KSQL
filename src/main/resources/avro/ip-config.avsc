@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "namespace": "AvroConfluent",
+  "name": "currentIpConfigure",
+  "version": 1,
+  "fields": [
+    {"name": "inet","type":"string","doc": "network_inet_configure"},
+    {"name": "netmask","type": "string","doc": "network subnet mask"},
+    {"name": "broadcast","type": "string","doc": "broadcast ip"},
+    {"name": "packetsRecieved","type": "int","doc": "packetsCount"},
+    {"name": "activeStatus","type": "boolean","doc": "active status"}
+  ]
+}
